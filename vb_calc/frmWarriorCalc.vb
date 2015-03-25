@@ -347,10 +347,6 @@ Public Class frmWarriorCalc
         If Int(Stealth_Mod_TxtBx.Text) > Math.Floor(Int(Stealth_TxtBx.Text) / 2) Then Stealth_Mod_TxtBx.ForeColor = Color.Red Else Stealth_Mod_TxtBx.ForeColor = Color.Black
         If Int(Regen_Mod_TxtBx.Text) > Math.Floor(Int(Regen_TxtBx.Text) / 2) Then Regen_Mod_TxtBx.ForeColor = Color.Red Else Regen_Mod_TxtBx.ForeColor = Color.Black
         If Int(Body_Mod_TxtBx.Text) > Math.Floor(Int(Body_TxtBx.Text) / 2) Then Body_Mod_TxtBx.ForeColor = Color.Red Else Body_Mod_TxtBx.ForeColor = Color.Black
-        'Whitestar Mod
-        If gLevel > 200 Then
-            MsgBox("The last stat increase exceeded max level.")
-        End If
 
 
     End Sub
